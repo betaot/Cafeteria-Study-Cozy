@@ -17,7 +17,7 @@ O "Study Cozy" foi criado com o objetivo de consolidar conhecimentos práticos e
 
 ## ⚙️ Funcionalidades e Estrutura
 O projeto é composto por 4 páginas interligadas:
-1. **Home (`home.html`):** Secção "Hero" de alto impacto com imagem de fundo e call-to-action.
+1. **Home (`index.html`):** Secção "Hero" de alto impacto com imagem de fundo e call-to-action.
 2. **Sobre (`sobre.html`):** Layout em grelha alternada (imagem/texto) desenhado com Flexbox.
 3. **Cardápio (`cardapio.html`):** Exibição de produtos em formato de "Cards" com efeitos de transição (hover) e sombras (box-shadow).
 4. **Contato (`contato.html`):** Formulário interativo e dividido no ecrã (Split-screen) com campos estilizados e bloqueio de redimensionamento indesejado no `textarea`.
@@ -25,4 +25,4 @@ O projeto é composto por 4 páginas interligadas:
 ## 🛠️ Como Executar
 Sendo um projeto estático, não requer instalação de pacotes ou servidores complexos:
 1. Faça o clone deste repositório ou descarregue os ficheiros.
-2. Abra o ficheiro `home.html` em qualquer navegador web moderno (Chrome, Firefox, Edge, Safari).
+2. Abra o ficheiro `index.html` em qualquer navegador web moderno (Chrome, Firefox, Edge, Safari).
