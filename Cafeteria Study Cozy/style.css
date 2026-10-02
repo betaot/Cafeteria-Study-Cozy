@@ -1,0 +1,319 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.Logo {
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #f5f0ea;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #f5f0ea;
+  color: #2b2b2b;
+  font-family: "Montserrat", sans-serif;
+}
+h1 h2 h3 {
+  font-family: "Playfair Display", serif;
+}
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+footer {
+  background-color: #3e2723;
+  color: #f5f0ea;
+  text-align: center;
+  padding: 30px 20px;
+  margin-top: 0px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 5%;
+  background-color: #3e2723;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+nav ul {
+  display: flex;
+  gap: 32px;
+  list-style: none;
+}
+nav a {
+  color: #f5f0ea;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: color 0.3s ease;
+}
+nav a:hover {
+  color: #d4a373;
+}
+#inicio {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding: 100px 5%;
+  gap: 20px;
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("images/Cafeteria interior.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #f5f0ea;
+}
+#inicio h1 {
+  font-size: 3rem;
+  color: #f5f0ea;
+  margin-bottom: 20px;
+}
+#inicio p {
+  max-width: 700px;
+  line-height: 1.6;
+}
+.botao-reserva {
+  background-color: #6b705c;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+}
+.botao-reserva:hover {
+  background-color: #3e2723;
+}
+#sobre {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  padding: 80px 5%;
+}
+.imagem-pagina-sobre img,
+.graos-sobre img {
+  width: 100%;
+  max-width: 450px;
+  border-radius: 12px;
+  object-fit: cover;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+.imagem-pagina-sobre,
+.texto-sobre,
+.graos-sobre,
+.texto-graos {
+  flex: 1 1 40%;
+  min-width: 300px;
+}
+.texto-sobre {
+  color: #2b2b2b;
+  line-height: 1.8;
+}
+.texto-graos {
+  color: #2b2b2b;
+  line-height: 1.8;
+}
+.texto-sobre h2 {
+  color: #3e273e;
+  margin-bottom: 20px;
+  font-size: 2.2rem;
+}
+#sobre h2 {
+  color: #3e2723;
+  margin-bottom: 20px;
+}
+.cardapio-bebidas,
+.cardapio-comida {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 60px;
+  padding: 0 5%;
+}
+.cardapio-bebidas h2,
+.cardapio-comida h2 {
+  width: 100%;
+  text-align: center;
+  color: #3e2723;
+  margin-bottom: 30px;
+  font-size: 2rem;
+}
+.card-produto {
+  background-color: #ffffff;
+  width: 300px;
+  border-radius: 15px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  transition: transform 0.3s;
+  will-change: transform;
+  transform: translateY(0);
+}
+.card-produto:hover {
+  transform: translateY(-10px);
+}
+.card-produto img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+.card-produto h3 {
+  color: #3e2723;
+  margin: 20px 15px 10px 15px;
+}
+.card-produto p {
+  color: #555;
+  margin: 0 15px 15px 15px;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  flex-grow: 1;
+}
+.card-produto .preco {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #6b705c;
+  margin-bottom: 20px;
+}
+#contato {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 50px;
+  padding: 60px 5%;
+}
+#contato > h1 {
+  width: 100%;
+  text-align: center;
+  color: #3e2723;
+  margin-bottom: 20px;
+}
+.formulario-contato,
+.informacoes-contato {
+  flex: 1 1 45%;
+  min-width: 300px;
+}
+.informacoes-contato {
+  background-color: #f5f0ea;
+  padding: 40px;
+  border-radius: 15px;
+  color: #3e2723;
+}
+.informacoes-contato h2 {
+  margin-bottom: 25px;
+}
+.informacoes-contato p {
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+form label {
+  display: block;
+  font-weight: bold;
+  color: #3e2723;
+  margin-bottom: 8px;
+  margin-top: 20px;
+}
+form input,
+form select,
+form textarea {
+  width: 100%;
+  padding: 12px 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-family: inherit;
+  font-size: 1rem;
+}
+form input:focus,
+form select:focus,
+form textarea:focus {
+  outline: none;
+  border-color: #6b705c;
+  box-shadow: 0 0 5px rgba(107, 112, 92, 0.3);
+}
+form button {
+  background-color: #6b705c;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 30px;
+  font-size: 1.1rem;
+  transition: background-color 0.3s;
+}
+form button:hover {
+  background-color: #3e2723;
+}
+form textarea {
+  resize: none;
+}
+.menu-hamburguer {
+  display: none;
+  background: none;
+  border: none;
+  color: #f5f0ea;
+  font-size: 2rem;
+  cursor: pointer;
+}
+#menu-toggle {
+  display: none;
+}
+/* Responsividade*/
+
+@media (max-width: 768px) {
+  header {
+    flex-wrap: wrap;
+    padding: 15px 5%;
+  }
+  .menu-hamburguer {
+    display: block;
+  }
+  nav {
+    width: 100%;
+  }
+  nav ul {
+    display: none;
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+    padding-top: 20px;
+    width: 100%;
+  }
+  #inicio h1 {
+    font-size: 2.2rem;
+  }
+  #sobre {
+    flex-direction: column;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  .imagem-pagina-sobre img {
+    max-width: 100%;
+  }
+  .sobre, .formulario-contato, .informacoes-contato {
+    flex: 1 1 100%;
+  }
+  #menu-toggle:checked ~ nav ul {
+    display: flex;
+  }
+}
