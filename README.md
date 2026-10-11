@@ -1,5 +1,3 @@
-# Cafeteria-Study-Cozy
-
 # ☕ Cafeteria Study Cozy
 
 Um projeto web responsivo e multipágina desenvolvido para simular o ambiente institucional de uma cafetaria moderna, focada em produtividade e conforto para estudantes e profissionais.
